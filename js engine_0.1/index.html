@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="#">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="src/engine.js"></script>
+    <script src="src/game.js"></script>
+    <script src="src/input.js"></script>
+    <script src="src/utils.js"></script>
+    <script src="src/GameObject.js"></script>
+    <script src="src/Player.js"></script>
+    <script src="src/Boss.js"></script>
+    <script src="src/BackGround.js"></script>
+    <script src="src/Wall.js"></script>
+    <script src="src/Bullet.js"></script>
+    <script src="src/Explosion.js"></script>
+    <script src="src/CollisionsManager.js"></script>
+    <script src="src/Enemy.js"></script>
+    <script src="src/Image.js"></script>
+    <script src="src/Enemy2.js"></script>
+    <script src="src/EnemyBullet.js"></script>
+    <script src="src/BossBullet.js"></script>
+    <script src="src/json.js"></script>
+    <script src="src/AudioManager.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Helicopter</title>
+</head>
+<body>
+    <div id="container">
+        <canvas id="myCanvas" width="1664" height="575"></canvas>
+
+        <div id="menu">
+            <h2>Helicopter</h2>
+            <div class="menuButton" id="startButton">Start</div>
+        </div>
+    </div>
+
+    <audio id="shoot" src="assets/sounds/shoot.wav" style="display: none;"></audio>
+    <audio id="enemyShoot" src="assets/sounds/enemyShoot.wav" style="display: none;"></audio>
+    <audio id="explosion" src="assets/sounds/explosion.wav" style="display: none;"></audio>
+    <audio id="bossEntering" src="assets/sounds/bossEntering.wav" style="display: none;"></audio>
+    <audio id="bossShoot" src="assets/sounds/bossShoot.wav" style="display: none;"></audio>
+    <audio id="collision" src="assets/sounds/collision.wav" style="display: none;"></audio>
+    <audio id="song" src="assets/sounds/GameSong.wav" style="display: none;"></audio>
+</body>
+</html>
